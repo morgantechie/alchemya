@@ -1,7 +1,8 @@
-
+---
 layout: page
 title: "BOOKS I WROTE"
 permalink: /books/written
+---
 
 ## These are the books I've written
 
