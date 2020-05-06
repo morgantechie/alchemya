@@ -1,20 +1,9 @@
-# git-wiki
+# A Digital Garden using git-wiki
 
 it's a **modular and full featured wiki** powered by git, [github](https://pages.github.com/)/[gitlab](https://about.gitlab.com/product/pages/) pages and pull-requests!
 
-## Getting started
 
-The easier and faster way to use git-wiki is the "skeleton" method.
-
-**You don't need to install anything locally!**
-
-1. Simply fork/clone [skeleton repo](https://github.com/Drassil/git-wiki-skeleton) or click on "Use this template" button to create your copy of the skeleton project.
-
-2. Edit _config.yml and other pages as you need and then deploy it on github/gitlab pages.
-
-**Done**! now wait that your page will be published and you're ready **_to wiki_**!
-
-## Features 
+/## Features 
 
 * Improvements in the **cooperative** aspect: forks, pull-requests and roles.
 * You can **customize your wiki** as you want with style sheets and even changing the layout. (see customization section below) 
@@ -37,6 +26,6 @@ You can use it with jekyll ["remote_theme"](https://github.com/benbalter/jekyll-
 
 
 
-Instructions and full documentation: (http://drassil.github.io/git-wiki)
+Instructions and full documentation: (http://drassil.github.io/git-wiki)/
 
 
