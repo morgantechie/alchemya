@@ -5,7 +5,7 @@
 body {
   background-color: #d6d6c2;
   padding: 50px;
-  font: 16px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 1rem "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #1f1f14;
   font-weight: 400;
 }
@@ -26,7 +26,7 @@ ol,
 table,
 pre,
 dl {
-  margin: 0 0 20px;
+  margin: 0 0 1.25rem;
 }
 
 h1,
@@ -36,7 +36,7 @@ h3 {
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 h2 {
@@ -60,7 +60,7 @@ a:hover {
 }
 
 a small {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: #777;
   margin-top: -0.3em;
   display: block;
@@ -76,7 +76,7 @@ a:hover small {
 }
 
 blockquote {
-  border-left: 2px solid #e5e5e5;
+  border-left: 0.125rem solid #e5e5e5;
   margin: 0;
   padding: 0 0 0 20px;
   font-style: italic;
@@ -86,14 +86,14 @@ code,
 pre {
   font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
   color: #333;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 pre {
-  padding: 8px 15px;
+  padding: 0.5rem 1rem;
   background: #f8f8f8;
-  border-radius: 5px;
-  border: 1px solid #e5e5e5;
+  border-radius: 0.2rem;
+  border: 0.125rem solid #e5e5e5;
   overflow-x: auto;
 }
 
@@ -105,8 +105,8 @@ table {
 th,
 td {
   text-align: left;
-  padding: 5px 10px;
-  border-bottom: 2px solid #e5e5e5;
+  padding: 0.25rem 0.62rem;
+  border-bottom: 0.125rem solid #e5e5e5;
 }
 
 dt {
@@ -146,7 +146,7 @@ img {
   /*overflow-y: auto;
   overflow-x: auto;*/
   max-height: 100%;
-  padding-bottom: 55px !important;
+  padding-bottom: 3rem !important;
 }
 
 @media print,
@@ -154,8 +154,8 @@ screen and (max-width: 992px) {
   #git-wiki-sidebar {
     position: fixed !important;
     top: 50px;
-    border-right: 1px solid;
-    border-bottom: 1px solid;
+    border-right: 0.125rem solid;
+    border-bottom: 0.125rem solid;
     border-radius: 10px;
   }
 
@@ -165,7 +165,7 @@ screen and (max-width: 992px) {
 }
 
 .git-wiki-main-logo {
-  max-width: 270px;
+  max-width: 200px;
 }
 
 #git-wiki-sidebar .git-wiki-downloads {
@@ -174,15 +174,15 @@ screen and (max-width: 992px) {
   padding: 0;
   background: #f4f4f4;
   border-radius: 5px;
-  border: 1px solid #e0e0e0;
+  border: 0.125rem solid #e0e0e0;
   width: 270px;
 }
 
 #git-wiki-sidebar .git-wiki-downloads li {
-  width: 89px;
+  width: 5rem;
   float: left;
-  border-right: 1px solid #e0e0e0;
-  height: 40px;
+  border-right: 0.125rem solid #e0e0e0;
+  height: 2.5rem;
 }
 
 #git-wiki-sidebar .git-wiki-downloads li:first-child a {
@@ -195,7 +195,7 @@ screen and (max-width: 992px) {
 
 #git-wiki-sidebar .git-wiki-downloads a {
   line-height: 1;
-  font-size: 11px;
+  font-size: 0.75rem;
   color: #999;
   display: block;
   text-align: center;
@@ -241,8 +241,8 @@ small {
 hr {
   border: 0;
   background: #e5e5e5;
-  height: 1px;
-  margin: 0 0 20px;
+  height: 0.125rem;
+  margin: 0 0 1.2rem;
 }
 
 footer {
@@ -281,8 +281,8 @@ screen and (max-width: 960px) {
 
   .git-wiki-page,
   footer {
-    border: 1px solid #e5e5e5;
-    border-width: 1px 0;
+    border: 0.125rem solid #e5e5e5;
+    border-width: 0.125rem 0;
     padding: 20px 0;
     margin: 60px 0 20px;
   }
@@ -351,10 +351,10 @@ screen and (max-width: 480px) {
 .pagination a,
 .pagination span {
   padding: 7px 18px;
-  border: 1px solid #eee;
+  border: 0.125rem solid #eee;
   margin-left: -2px;
   margin-right: -2px;
-  background-color: #ffffff;
+  background-color: #f5e6d6;
   display: inline-block;
 }
 
