@@ -1,8 +1,10 @@
 ---
 redirect_from: "/"
 ---
+## This will be the main hub
 
-This is a sample of main page. You can edit it to start your wiki.
+I'm building my Digital Garden. It will take some time, but it will be awesome.
+Stay tuned!
 
-For documentation, installation guide and demo of [git-wiki-theme](git-wiki-theme) visit this [link](http://drassil.github.io/git-wiki/)
+> To build a garden is to believe in tomorrow - _Audrey Hepburn_
 
