@@ -1,1 +1,6 @@
 /*this is the wiki main page w the cool grid stuff and all the topics to choose from */
+h1 {
+	font-family: 'Courier New', Courier, monospace;
+	color: #115533;
+	padding: 3rem;
+}
