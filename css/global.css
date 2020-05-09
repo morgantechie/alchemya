@@ -1,8 +1,8 @@
-/*all except for homepage w its own layout. here find body, sidebar, navbars, footer, palettes */
+/*all except for homepage w its own layout. here find body, sidebar, navbars, footer, palettes 
 * {
 }
 header {
-}
+}*/
 /*body will have sidebars w links to the pages like a doc-theme*/
 body {
 	background-color: rgb(224, 224, 210);
