@@ -1,0 +1,18 @@
+/*all except for homepage w its own layout. here find body, sidebar, navbars, footer, palettes */
+* {
+}
+header {
+}
+/*body will have sidebars w links to the pages like a doc-theme*/
+body {
+	background-color: rgb(224, 224, 210);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 1rem;
+}
+h1 {
+	color: #36486b; /*temporary*/
+}
+footer {
+	background-color: #484f4f;
+	font-size: 0.8rem;
+}

@@ -1,0 +1,10 @@
+/*this is the cool main homepage. just a cool presentation w nice graphics and so on plus a little talk abt digi gardens and maybe a random page picker and social media links etc */
+body {
+	background-color: #c5d5c5;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+		sans-serif;
+}
+blockquote {
+	background-color: #f0f0f0;
+	color: #3b3a30;
+}
