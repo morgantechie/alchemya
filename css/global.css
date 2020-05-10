@@ -9,6 +9,10 @@ body {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 1rem;
 }
+header {
+	display: flex; /*flexbox?*/
+	margin: auto;
+}
 h1 {
 	color: #36486b; /*temporary*/
 }
