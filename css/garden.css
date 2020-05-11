@@ -1,6 +1,6 @@
 /*this is the wiki main page w the cool grid stuff and all the topics to choose from */
 body 	{
-	background-color: rgb(184, 184, 148);
+	background-color: rgb(64, 63, 72);
 }
 #wikinav {
 	display: flex;
@@ -19,14 +19,16 @@ h1 {
 	margin: auto;
 	text-align: center;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	color: #115533;
+	font-size: 3rem;
+	color: rgb(241, 244, 223);
 	text-transform: uppercase;
 	padding: 3rem;
 }
 h1 + p {
 	display: block;
+	color: rgb(241, 244, 223);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	text-align: center;
-	padding: 1rem;
 }
 /* that div class thingy for grid so that each under div (children) can have cute little box like appearance etc*/
 .parent {
@@ -43,17 +45,19 @@ h1 + p {
   display: flex;
   align-items: center;
   justify-content: center;
-	border: 0.1rem solid rgba(20, 31, 31, 0.5);
+	border: 0.2rem outset rgba(128, 128, 128, 0.7);
   border-radius: 0.5rem;
-	background-color: rgba(0, 102, 51, 0.8);
+	background-color: #eadea6;
+	box-shadow: 0.2rem 0.2rem rgba(251, 250, 223, 0.5);
 }
 .plot a {
-	color: rgb(255, 255, 204);
+	color: rgb(89, 108, 104);
 	font-family: Tahoma, Geneva, Verdana, sans-serif;
 	text-transform: uppercase;
 	text-decoration: none;
 }
 .plot:hover {
-	box-shadow: 0.2rem 0.2rem 0.2rem rgba(122, 92, 82, 0.5);
+	transform: scale(1.06);
+  box-shadow: 0.4rem 0.4rem rgba(251, 250, 223, 0.5);
 }
 
