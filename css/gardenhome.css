@@ -1,7 +1,54 @@
 /*this is the wiki main page w the cool grid stuff and all the topics to choose from */
+body {
+	background-color: rgb(184, 184, 148);
+}
+#wikinav {
+	display: flex;
+	align-items: flex-end;
+	margin: auto;
+	padding: 1rem;
+	background-color: transparent;
+}
+#wikinav + a {
+	color: rgb(10, 10, 15);
+	padding: 0.4rem;
+	text-align: center;
+}
 h1 {
-	font-family: 'Courier New', Courier, monospace;
+	display: block;
+	margin: auto;
+	text-align: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	color: #115533;
+	text-transform: uppercase;
 	padding: 3rem;
 }
+h1 + p {
+	display: block;
+	text-align: center;
+	padding: 2rem;
+}
 /* that div class thingy for grid so that each under div (children) can have cute little box like appearance etc*/
+.parent {
+	display: grid;
+	grid-template-columns: repeat(4 1fr);
+	grid-template-rows: repeat(5 1fr);
+	gap: 0.5rem;
+	padding: 2rem;
+	margin: auto;
+}
+/*now general display opts x each grid boxes. need to give the class name to each sub-div*/
+.plot {
+	border: 0.1rem solid rgb(20, 31, 31);
+	background-color: rgb(129, 163, 117);
+	justify-content: center;
+}
+.plot a {
+	color: rgb(0, 77, 26);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.plot:hover {
+	box-shadow: 0.1rem 0.1rem rgba(122, 92, 82, 0.5);
+}
