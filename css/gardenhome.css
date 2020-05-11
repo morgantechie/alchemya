@@ -26,29 +26,38 @@ h1 {
 h1 + p {
 	display: block;
 	text-align: center;
-	padding: 2rem;
+	padding: 1rem;
 }
 /* that div class thingy for grid so that each under div (children) can have cute little box like appearance etc*/
 .parent {
 	display: grid;
-	grid-template-columns: repeat(4 1fr);
-	grid-template-rows: repeat(5 1fr);
-	gap: 0.5rem;
+	grid-template-columns: auto auto auto auto;
+	grid-template-rows: 3rem 3rem 3rem;
+	grid-gap: 0.5rem;
 	padding: 2rem;
-	margin: auto;
+	margin: 1rem;
+  
 }
+
 /*now general display opts x each grid boxes. need to give the class name to each sub-div*/
 .plot {
-	border: 0.1rem solid rgb(20, 31, 31);
-	background-color: rgb(129, 163, 117);
-	justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+	border: 0.1rem solid rgba(20, 31, 31, 0.5);
+  border-radius: 0.5rem;
+	background-color: rgba(0, 102, 51, 0.8);
+	
 }
 .plot a {
-	color: rgb(0, 77, 26);
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: rgb(255, 255, 204);
+	font-family: Tahoma, Geneva, Verdana, sans-serif;
 	text-transform: uppercase;
 	text-decoration: none;
+  
 }
 .plot:hover {
-	box-shadow: 0.1rem 0.1rem rgba(122, 92, 82, 0.5);
+	box-shadow: 0.2rem 0.2rem 0.2rem rgba(122, 92, 82, 0.5);
 }
+
+
