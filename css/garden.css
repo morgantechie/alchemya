@@ -78,9 +78,7 @@ h1 + p {
 }
 footer {
   position: relative;
-  margin-top: -2rem;
-  height: 100%;
-  left: 0;
+  
   bottom: -1rem;
   width: 100%;
 	background-color: rgba(24, 24, 27, 0.5);
