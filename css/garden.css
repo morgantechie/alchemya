@@ -93,7 +93,8 @@ footer {
   align-items: center;
 }
 .footer li {
-  
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;		
   list-style-type:none;
   text-transform: lowercase;
   text-decoration: none;
