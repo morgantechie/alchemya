@@ -1,5 +1,4 @@
 /*this is the wiki main page w the cool grid stuff and all the topics to choose from */
-/*this is the wiki main page w the cool grid stuff and all the topics to choose from */
 body 	{
 	background-color: rgb(64, 63, 72);
   display: flex;
@@ -80,35 +79,34 @@ h1 + p {
   box-shadow: 0.4rem 0.4rem rgba(251, 250, 223, 0.5);
 }
 footer {
-  display: flex;
-  align-self: flex-end;
-  height: 3rem;
-  bottom: 0;
+  display: inline-block;
+  position: static;
   width: 100%;
 	background-color: rgba(24, 24, 27, 0.5);
-	text-transform: lowercase;
+	
   text-decoration: none;
 	font-family: sans-serif;
   font-size: 0.75rem;
 	color: rgb(241, 241, 243);
- 
+ margin: 0;
+	padding: 0;
   
 }
 .footer {
   display: flex;
   justify-content: left;
- padding: 0.2rem;
   
 }
 .footer li {
+	display: flex;
+	margin: 0;
   padding: 0.4rem;
-  height: 100%;
   list-style-type:none;
-  text-transform: lowercase;
   text-decoration: none;
   border-right: 0.1rem solid rgba(255, 255, 255, 0.5);
   
 }
 .footer a:hover {
-  background-color: rgba(24, 24, 27, 0.7)
+  color: rgb(26, 255, 140);
+	text-transform: uppercase;
 }
