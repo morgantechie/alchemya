@@ -5,18 +5,21 @@ header {
 }*/
 /*body will have sidebars w links to the pages like a doc-theme*/
 body {
-	background-color: rgb(224, 224, 210);
+	background-color: rgb(50, 49, 59);
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 1rem;
 }
 header {
-	display: flex; /*flexbox?*/
+	display: flex;
+	align-items: center;
+	justify-content: center; /*flexbox?*/
 	margin: auto;
 }
 h1 {
-	color: #36486b; /*temporary*/
+	color: #8693ac; /*temporary*/
 }
 footer {
-	background-color: #484f4f;
+	background-color: #748080;
 	font-size: 0.8rem;
+	color: rgb(211, 205, 231);
 }

@@ -1,6 +1,6 @@
 /*this is the wiki main page w the cool grid stuff and all the topics to choose from */
 body 	{
-	background-color: rgb(64, 63, 72);
+	background-color: rgb(50, 49, 59);
   display: flex;
   flex-direction: column;
   width: 100%;
