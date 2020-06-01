@@ -3,9 +3,12 @@
 }
 header {
 }*/
-/*body will have sidebars w links to the pages like a doc-theme*/
+* {
+	box-sizing: border-box;
+}
 body {
 	background-color: rgb(50, 49, 59);
+	color: rgb(236, 226, 226);
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 1rem;
 	display: flex;
@@ -18,14 +21,16 @@ body {
 }
 header {
 	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-color: rgb(206, 206, 115);
+
+	background-color: rgb(219, 152, 76);
 	width: 100%; /*flexbox?*/
 	margin: 0;
 	border-bottom: 0.3rem solid rgb(185, 57, 79);
 }
 h1 {
+	display: flex;
+	align-items: flex-start;
+	padding: 1rem;
 	color: #8693ac; /*temporary*/
 }
 hr {
@@ -34,7 +39,36 @@ hr {
 	color: gainsboro;
 }
 footer {
-	background-color: #748080;
+	background-color: #275555;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 1rem;
 	font-size: 0.8rem;
 	color: rgb(211, 205, 231);
 }
+.container {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+}
+.left-sidebar {
+	grid-area: 1 / 1 / 5 / 2;
+	background-color: rgb(182, 23, 50);
+}
+main {
+	grid-area: 1 / 2 / 5 / 5;
+	background-color: #8693ac;
+	padding: 1rem;
+}
+.right-sidebar {
+	grid-area: 1 / 5 / 5 / 6;
+	background-color: green;
+	padding: 1rem;
+	text-align: right;
+}
+@media max-width;
