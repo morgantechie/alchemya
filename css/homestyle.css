@@ -55,6 +55,15 @@ h1 + p {
 	padding: 2rem;
 	margin: 4rem;
 	flex: 1 0 auto;
+	animation: animation-start 2s forwards ease-in-out;
+}
+
+@keyframes animation-start {
+	from{
+		opacity: 0;
+	}to{	
+		opacity: 1;
+	}
 }
 
 /*now general display opts x each grid boxes. need to give the class name to each sub-div*/
